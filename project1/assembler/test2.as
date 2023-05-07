@@ -5,8 +5,8 @@ start   add     1       2       1       decrement reg1
         beq     0       0       start   go back to the beginning of the loop
         noop
 done    halt                            end of program
-zero 	.fill   0
-zero 	.fill   0                       test for duplicated label
+zero    .fill   0
+zero    .fill   0                       test for duplicated label
 five    .fill   5
 neg1    .fill   -1
 stAddr  .fill   start                   will contain the address of start (2)
